@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -9,6 +10,7 @@ import 'package:gam3ity/utilities/theme/cubit/theme_cubit.dart';
 import 'package:gam3ity/utilities/theme/cubit/theme_state.dart';
 import 'package:gam3ity/di/injection_container.dart' as di;
 import 'package:gam3ity/utilities/theme/light_theme/light_theme.dart';
+import 'firebase_options.dart';
 import 'generated/l10n.dart';
 
 void main() async {
@@ -65,4 +67,7 @@ Future<void> initialize() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ConfigReader.initialize();
   await di.configure();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 }

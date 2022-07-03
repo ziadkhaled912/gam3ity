@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:gam3ity/core/app/app_config.dart';
 import 'package:gam3ity/core/data/interceptors/language_interceptor.dart';
@@ -11,6 +12,9 @@ import 'injection_container.dart';
 abstract class AppModule {
   @preResolve
   Future<SharedPreferences> get prefs => SharedPreferences.getInstance();
+
+  @lazySingleton
+  FirebaseAuth get firebaseAuth => FirebaseAuth.instance;
 
   @lazySingleton
   Dio get dio {

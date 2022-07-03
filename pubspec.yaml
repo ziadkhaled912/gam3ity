@@ -12,6 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Firebase
+  firebase_auth: ^3.4.1
+  firebase_core: ^1.19.1
+
   # Network
   dio: ^4.0.6
   shared_preferences: ^2.0.15

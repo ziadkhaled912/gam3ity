@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938555171695",
+    "project_id": "gam3ity-ecfb6",
+    "storage_bucket": "gam3ity-ecfb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938555171695:android:14c262178d88d510143e9a",
+        "android_client_info": {
+          "package_name": "com.ziad_dev.gam3ity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938555171695-qfeg10dv7tljnseh5uvg74fhr3kp5o58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMoFyvqg_d6xY3GIwmq6ysXUz20bNRndM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938555171695-qfeg10dv7tljnseh5uvg74fhr3kp5o58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
