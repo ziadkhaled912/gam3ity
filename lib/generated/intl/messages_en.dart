@@ -45,6 +45,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "The number you have entered is invalid"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
         "next": MessageLookupByLibrary.simpleMessage("Next"),
+        "no_internet": MessageLookupByLibrary.simpleMessage(
+            "You don\'t have internet connection, Please connect with the internet and try again"),
         "onBoardingSubtitle1": MessageLookupByLibrary.simpleMessage(
             "All circles are guaranteed because all users\nThey offer legal guarantees"),
         "onBoardingSubtitle2": MessageLookupByLibrary.simpleMessage(
@@ -63,6 +65,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Something went wrong, please try again later"),
         "termsAndConditions":
             MessageLookupByLibrary.simpleMessage("terms & conditions"),
+        "thePhoneIsUsedBefore": MessageLookupByLibrary.simpleMessage(
+            "The phone you have entered is already in use"),
         "thisFieldIsRequired":
             MessageLookupByLibrary.simpleMessage("This field is required")
       };

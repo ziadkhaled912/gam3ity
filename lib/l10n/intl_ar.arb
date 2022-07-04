@@ -1,6 +1,7 @@
 {
   "@@locale": "ar",
   "somethingWentWrong" : "ثمة خطب ما، من فضلك حاول في وقت لاحق",
+  "no_internet": "انت غير متصل بالانترنت برجاء الإتصال و إعادة المحاولة",
   "serviceError": "الخدمة غير متوفرة، من فضلك حاول في وقت لاحق",
   "forbiddenAccessError": "لا تملك الصلاحيات الكافية للإطلاع",
   "contentError": "هذا المحتوى غير متوفر حالياً، من فضلك حاول في وقت لاحق",
@@ -26,5 +27,6 @@
   "dontHaveAccount": "ليس لديك حساب؟ ",
   "confirmPassword": "تأكيد كلمة المرور",
   "agreeTo": "موافق على",
-  "termsAndConditions": "الشروط و الاحكام"
+  "termsAndConditions": "الشروط و الاحكام",
+  "thePhoneIsUsedBefore": "الهاتف الذى ادخلته مستخدم من قبل"
 }

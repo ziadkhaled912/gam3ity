@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:gam3ity/core/app/app_config.dart';
 import 'package:gam3ity/core/data/interceptors/language_interceptor.dart';
 import 'package:injectable/injectable.dart';
+import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'injection_container.dart';
@@ -15,6 +16,9 @@ abstract class AppModule {
 
   @lazySingleton
   FirebaseAuth get firebaseAuth => FirebaseAuth.instance;
+
+  @lazySingleton
+  InternetConnectionChecker get checker => InternetConnectionChecker();
 
   @lazySingleton
   Dio get dio {

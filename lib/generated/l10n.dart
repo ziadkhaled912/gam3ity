@@ -60,6 +60,16 @@ class S {
     );
   }
 
+  /// `You don't have internet connection, Please connect with the internet and try again`
+  String get no_internet {
+    return Intl.message(
+      'You don\'t have internet connection, Please connect with the internet and try again',
+      name: 'no_internet',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Service unavailable, please try again later.`
   String get serviceError {
     return Intl.message(
@@ -315,6 +325,16 @@ class S {
     return Intl.message(
       'terms & conditions',
       name: 'termsAndConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The phone you have entered is already in use`
+  String get thePhoneIsUsedBefore {
+    return Intl.message(
+      'The phone you have entered is already in use',
+      name: 'thePhoneIsUsedBefore',
       desc: '',
       args: [],
     );

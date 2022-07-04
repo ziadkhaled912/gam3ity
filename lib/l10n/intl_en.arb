@@ -1,6 +1,7 @@
 {
   "@@locale": "en",
   "somethingWentWrong" : "Something went wrong, please try again later",
+  "no_internet": "You don't have internet connection, Please connect with the internet and try again",
   "serviceError": "Service unavailable, please try again later.",
   "forbiddenAccessError": "You don't have the adequate permissions to view this.",
   "contentError": "This content is unavailable currently, please try again later",
@@ -26,5 +27,6 @@
   "dontHaveAccount": "Don't have account? ",
   "confirmPassword": "Confirm Password",
   "agreeTo": "Agree to",
-  "termsAndConditions": "terms & conditions"
+  "termsAndConditions": "terms & conditions",
+  "thePhoneIsUsedBefore": "The phone you have entered is already in use"
 }
