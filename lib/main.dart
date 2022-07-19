@@ -10,6 +10,7 @@ import 'package:gam3ity/utilities/theme/cubit/theme_cubit.dart';
 import 'package:gam3ity/utilities/theme/cubit/theme_state.dart';
 import 'package:gam3ity/di/injection_container.dart' as di;
 import 'package:gam3ity/utilities/theme/light_theme/light_theme.dart';
+import 'package:intl/intl.dart';
 import 'firebase_options.dart';
 import 'generated/l10n.dart';
 

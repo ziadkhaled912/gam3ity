@@ -42,12 +42,11 @@ dependencies:
   phone_number: ^0.12.0+2
   dartz: ^0.10.1
   internet_connection_checker: ^0.0.1+4
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  intl: ^0.17.0
 
   injectable_generator:
 
